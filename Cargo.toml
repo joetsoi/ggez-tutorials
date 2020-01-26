@@ -1,0 +1,25 @@
+[package]
+name = "pixelart"
+version = "0.1.0"
+authors = ["Joe Tsoi <joetsoi@users.noreply.github.com>"]
+edition = "2018"
+default-run = "generateconf"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ggez = "*"
+cgmath = "*"
+
+
+[[bin]]
+name = "blurry"
+path = "blurry/main.rs"
+
+[[bin]]
+name = "generateconf"
+path = "generateconf/main.rs"
+
+[[bin]]
+name = "spritemove"
+path = "spritemove/main.rs"
