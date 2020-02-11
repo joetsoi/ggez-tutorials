@@ -11,7 +11,7 @@ max_height = 0.0
 resizable = false
 
 [window_setup]
-title = "An easy, good game"
+title = "ggez tutorials"
 samples = "Zero"
 vsync = true
 icon = ""
